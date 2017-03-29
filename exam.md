@@ -1,14 +1,88 @@
 # Admin Exam 2017 AGM
+Total Marks: 50
 
-## Linux
+## Linux [ Marks]
 
-## BSD
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
-## Networking
+## BSD [ Marks]
 
-## File System
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
 
-## Scripting
+## Networking [ Marks]
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+## File System [ Marks]
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+## Security [ Marks]
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+## Scripting [30 Marks]
+This Section can be written in a language of your choice
+
+1. Mailing lists are broken and we need to send the announce to all our users.
+   Write a script to send the announce to our list of users, which is stored in
+   a csv file, of `name,username,alt-mail` called `iShouldntHaveThis.csv`. (3 marks)
+2. Write a script that takes usernames and password hashes from /etc/shadow.
+   The script should then try and crack them using john the ripper. If the
+   password is found in under 10 minutes email the user their password and tell
+   them it's shit (10 marks)
+3. A user has been disusered but is still spawning processes. Write a Script to
+   find all processes by this user and kill them every 10 minutes. But you can
+   not use pkill, pgrep or killall(10 marks)
+4. Write a script to scan all users web directories for world editable files.
+   Change there permissions to the correct permissions and email the user
+   telling them the file you changed and why this is important (5 marks)
+5. Write something to make us laugh(2 marks)
 
 ## Docker [20 Marks]
 
@@ -27,4 +101,4 @@
    one? (2)
 10. Give the docker command to run a container with port 8000 on the container bound to port 80 on the host? (1)
 
-## Practical
+## Practical [ Marks]
