@@ -1,7 +1,29 @@
 # Admin Exam 2017 AGM
-Total Marks: 50
+Total Marks: 80
 
-## Linux [ Marks]
+## GNU/Linux [30 Marks]
+
+1. What is systemd (2 makrs)
+2. What does LVM stand for and what does that actually mean (3 marks)
+3. A user has somehow renamed a file to a name with strange unicode characters
+   and you cannot delete that file by name. How would you go about deleting
+   that file? Give commands with parameters. (4 marks)
+4. You’ve just royally screwed your shell by catting a binary. How do you fix
+   this? (2 Marks)
+5. You’re trying to unmount /storage, but it keeps complaining about being busy.
+   How do you find out what/who is using it, and kill the process/user? Also,
+   how do you unmount without killing the user/process? (4 marks)
+6. You have a list of compressed files in /var/log. You need to search through the logs.
+   Give 3 ways of doing this. (3 marks)
+7. Give 5 advantages to getting a package from a package manager rather then building
+   it yourself. What Command would you run to install and update packages on a
+   redbrick server (5 marks)
+8. You want to create a user to be used by a daemon. What do you set its shell
+   to? (2 marks)
+9. What is fail2ban? Is it a good idea to run it on your server, why? (2 marks)
+10. What Is a chroot? Why might you use one? (3 marks)
+
+## BSD the Os not the Licence [ Marks]
 
 1.
 2.
@@ -12,20 +34,7 @@ Total Marks: 50
 7.
 8.
 9.
-10.
-
-## BSD [ Marks]
-
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+10. Why does Redbrick have a BSD machine (2 marks)
 
 ## Networking [ Marks]
 
