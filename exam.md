@@ -111,3 +111,8 @@ This Section can be written in a language of your choice
 10. Give the docker command to run a container with port 8000 on the container bound to port 80 on the host? (1)
 
 ## Practical [ Marks]
+
+## BONUS ROUND [ALL THE INTERNET POINTS]
+
+1. You've got root, what now?
+2. How weird will zergless look without a beard?
