@@ -1,6 +1,8 @@
 # Admin Exam 2017 AGM
 Total Marks: 80
 
+![Good Luck](https://pbs.twimg.com/profile_images/733673042845503489/A0mCyCC-.jpg)
+
 ## GNU/Linux [30 Marks]
 
 1. What is systemd (2 makrs)
