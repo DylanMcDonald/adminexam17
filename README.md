@@ -8,5 +8,6 @@
    If that's too much bullshit for you, just annoy an admin and they'll get your
    exam from you.
 5. Save Early. Save Often
-6. Access to manpages is allowed. Access to the internet is NOT allowed. We'll 
-   be keeping an eye on your processes, don't try to get around this restriction.
+6. Access to manpages is allowed, for the Practical section ONLY.  Access to the 
+   internet is NOT allowed. We'll be keeping an eye on your processes, don't try
+   to get around this restriction.
