@@ -87,9 +87,12 @@ This Section can be answered in a language of your choice.
    The script should then try and crack them using john the ripper. If the
    password is found in under 10 minutes email the user their password and tell
    them it's shit. (10 marks)
-3. A user has been disusered but is still spawning processes. Write a script to
-   find all processes by this user and kill them every 10 minutes. But you can
-   not use pkill, pgrep or killall. (10 marks)
+3. You've realised that we run a 10 year old version of php and update it. All
+   the old php scripts break. Turns out users with old mysql password, with a
+   hash of length 16 bit, need to reset their password. Write a script to find
+   all users who need to change their with the old passwords, email them saying
+   they need to change their password and that their php has been disabled.
+   The script should also disable those users php if it access mysql. (10 marks)
 4. Write a script to scan all users' web directories for world editable files.
    Change their permissions to the correct permissions and email the user
    telling them the file you changed and why this is important. (5 marks)
