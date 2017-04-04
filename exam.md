@@ -25,22 +25,22 @@ Total Marks: 80
 9. What is fail2ban? Is it a good idea to run it on your server, why? (2 marks)
 10. What Is a chroot? Why might you use one? (3 marks)
 
-## BSD the Os not the Licence [ Marks]
+## BSD the Os not the Licence [30 Marks]
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10. Why does Redbrick have a BSD machine? (2 marks)
-
+1. Illustrate 3 differences between a GNU/Linux system and a FreeBSD system. (3)
+2. You've been added to the root group on a FreeBSD system. This, however, 
+   doesn't enable you to do anything. Why is this the case? (3)
+3. What is a Jail? Why might you want to use one? (3)
+4. What does Redbrick use FreeBSD for? (3)
+5. What utility would you use to manage users and groups on FreeBSD? (1)
+6. How would you have a script 'resign.sh' run on startup? (2)
+7. How would you configure a network interface on FreeBSD? (4)
+8. What is the command to list the currently loaded pf rules? (2)
+9. 
+10. 
 ## Networking [ Marks]
 
-1.
+1. What is an SFP? Where would you expect to find one? (2)
 2.
 3.
 4.
@@ -53,29 +53,48 @@ Total Marks: 80
 
 ## File Systems [ Marks]
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. ext4, used by most modern GNU/Linux systems, is a journaling filesystem. 
+   What is meant by this? (2)
+2. What does RAID stand for? (2)
+3. Describe the structure of 3 different RAID variations, giving advantages and
+   disadvantages for each. You may describe the structure in words, or with a 
+   diagram on the provided paper. (2 + 2 + 2)
+4. What is a sticky bit? How and why would you set it on a file? (2)
+5. Name a non-RAID multi disk setup. Give an advantage and a disadvantage. (2)
+6. What protocol(s) might you use to mount a filesystem over a network? What one
+   does Redbrick use? (3)
+7. What are fdisk and gdisk? What situation would you use each in? (2)
+8. What file would you modify to mount a filesystem to the mountpoint `/webtree/` on boot? (2)
+9. What does the command `sync` do? (1)
+10. What are the pros and cons of Hardware RAID & Software RAID.
+11. What is a UID and a GID? Why are they useful? (3)
+12. 
 
-## Security [ Marks]
+## Security [30 Marks]
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. How would you disable SSH login as root, on Linux? (3)
+2. Why might you want to run SSH on a non-standard port? (2)
+3. You have forgotten the passwordsafe password. How do you gain access? (2)
+4. `chmod -R 777 ./*` Why is this literally the worst thing ever? (3)
+5. A user has launched a new website for another society. They type ls -l and the following is output;
+   `gobshite@azazel (~/public_html/) -> ls -l [8:25] total 12K
+   -rwxrwxrwx 1 gobshite member 116 2013-10-21 19:55 blah.php
+   -rwxrwxrwx 1 gobshite member 50 2013-10-21 19:25 database.php
+   -rwxrwxrwx 1 gobshite member 1593 2013-10-21 19:17 index.php`
+   How would a regular user go about exploiting this? (3)
+6. Apache runs as the www-data user, yet users scripts run as themselves. How is this done? (3)
+7. What is wrong with the following?
+   `mysql -u root -h mysql.internal -p=ThisIsTheRootPassword redbrickdb`
+	(2)
+8. Our servers are being hammered by a load of Russian IPs. What do you do? (2)
+9. Briefly explain the purpose of each of the following: (1 each)
+	- /etc/shadow and /etc/group
+	- SELinux
+	- dm-crypt
+	- SSL
+	- Telnet
+10. A major Linux security vulnerability has been announced. How do you go about 
+    patching your machines with minimal downtime? (5)
 
 ## Scripting [30 Marks]
 This Section can be answered in a language of your choice.
