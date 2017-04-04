@@ -28,7 +28,7 @@ Total Marks: 80
 ## BSD the Os not the Licence [30 Marks]
 
 1. Illustrate 3 differences between a GNU/Linux system and a FreeBSD system. (3)
-2. You've been added to the root group on a FreeBSD system. This, however, 
+2. You've been added to the root group on a FreeBSD system. This, however,
    doesn't enable you to do anything. Why is this the case? (3)
 3. What is a Jail? Why might you want to use one? (3)
 4. What does Redbrick use FreeBSD for? (3)
@@ -36,28 +36,32 @@ Total Marks: 80
 6. How would you have a script 'resign.sh' run on startup? (2)
 7. How would you configure a network interface on FreeBSD? (4)
 8. What is the command to list the currently loaded pf rules? (2)
-9. 
-10. 
+9. How would you install packages in FreeBSD? (2)
+10. How would you show the routing table in FreeBSD(2)
+
 ## Networking [ Marks]
 
 1. What is an SFP? Where would you expect to find one? (2)
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+2. Why do we only allow packets through our firewall on a select number of ports? (2)
+3. No one can seem to connect to anything on Redbrick. Walk us through how you would go about trouble shooting this. [4]
+4. People seem to be able to connect via IP but not via DNS. Name some tools you could use to trouble shoot this. [4]
+5. How would you go about looking at a config on one our switches or SRX (juniper or cisco)
+6. Give the syntax for adding an entry to DNS(bind9) with the following info
+    graphs.redbrick.dcu.ie point to 136.206.15.69
+    pretty.redbrick.dcu.ie point to graphs.redbrick.dcu.ie
+    graphs.redbrick.dcu.ie also point to 2001:41d0:e:1232::1 
+7. Explain briefy what happens when you type in redbrick.dcu.ie into a browser [4]
+8. When would you use tcpdump. Give an example of its syntax [3]
+9. What is a Vlan? what are they used for? [2]
+10. What is a virtual interface? What file would you modify to create one?
 
 ## File Systems [ Marks]
 
-1. ext4, used by most modern GNU/Linux systems, is a journaling filesystem. 
+1. ext4, used by most modern GNU/Linux systems, is a journaling filesystem.
    What is meant by this? (2)
 2. What does RAID stand for? (2)
 3. Describe the structure of 3 different RAID variations, giving advantages and
-   disadvantages for each. You may describe the structure in words, or with a 
+   disadvantages for each. You may describe the structure in words, or with a
    diagram on the provided paper. (2 + 2 + 2)
 4. What is a sticky bit? How and why would you set it on a file? (2)
 5. Name a non-RAID multi disk setup. Give an advantage and a disadvantage. (2)
@@ -68,7 +72,7 @@ Total Marks: 80
 9. What does the command `sync` do? (1)
 10. What are the pros and cons of Hardware RAID & Software RAID.
 11. What is a UID and a GID? Why are they useful? (3)
-12. 
+12.
 
 ## Security [30 Marks]
 
@@ -93,7 +97,7 @@ Total Marks: 80
 	- dm-crypt
 	- SSL
 	- Telnet
-10. A major Linux security vulnerability has been announced. How do you go about 
+10. A major Linux security vulnerability has been announced. How do you go about
     patching your machines with minimal downtime? (5)
 
 ## Scripting [30 Marks]
@@ -135,6 +139,13 @@ This Section can be answered in a language of your choice.
 10. Give the docker command to run a container with port 8000 on the container bound to port 80 on the host. (1)
 
 ## Practical [ Marks]
+
+2. Login with the details provided and install apache.
+3. Serve some other page that isnt the default page.
+4. setup fail2ban
+5. add 2 users of your choice
+6. enable one of these accounts to be able to use sudo
+
 
 ## BONUS ROUND [ALL THE INTERNET POINTS]
 
